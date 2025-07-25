@@ -513,7 +513,7 @@ For the remaining Linux distributions, mount the guest tools ISO as described ab
 
 For the xe-daemon to start it is necessary that insserv is installed on the system. To make sure that is the case run
 ```
-sudo transactional-uptdate pkg install insserv-compat
+sudo transactional-update pkg install insserv-compat
 ```
 and as good measure reboot if they weren't already installed.
 
